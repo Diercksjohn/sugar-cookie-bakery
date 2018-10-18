@@ -1,0 +1,13 @@
+@import url(./../../../node_modules/normalize.css/normalize.css);
+@import url(./../../../node_modules/bulma/css/bulma.css);
+h1 {
+  font-family: "brownies";
+  src: './../fonts/The Brownies.otf'; }
+
+nav .nav_closed {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0; }
+
+/*# sourceMappingURL=styles.css.map */
