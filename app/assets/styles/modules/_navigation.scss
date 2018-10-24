@@ -1,0 +1,17 @@
+nav{
+    padding-top: $padding-menu;
+    padding-left: $padding-menu;
+    .nav_closed{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;   
+    }
+
+    .nav_list{
+        .nav_list-links{
+            //make navigation display for hamburger menu
+            display: none;
+        }
+    }
+}

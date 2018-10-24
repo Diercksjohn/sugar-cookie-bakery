@@ -1,4 +1,9 @@
 @import "./../../../node_modules/normalize.css/normalize.css";
 @import './../../../node_modules/bulma/css/bulma.css';
-@import "./base/global";
-@import "./modules/navigation";
+@import "./base/_global";
+@import "./base/_mixins";
+@import "./base/_variables";
+@import "./modules/_navigation";
+@import "./modules/_header";
+@import "./modules/_index_main";
+@import "./modules/_footer";

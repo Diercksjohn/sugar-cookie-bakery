@@ -1,0 +1,46 @@
+.front_page_about_container{
+
+    
+    .image_container{
+        border: solid black;
+        background-image: url(../../images/cookie_stack_opimized_desktop.jpg);
+        background-size:cover;
+        background-position: center center;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -10;
+        
+        .image_container-overlay{
+            //add styles for the image here
+            position: absolute;
+            background-color: rgba(0, 0, 0, 1);
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -5;
+    
+        }
+    }
+
+    .front_page_contact{
+
+        height: 24rem;
+
+        .front_page_contact--saying{
+            border: solid black;
+            text-align: center;
+            font-size: 3rem;
+            margin-top: 2rem;
+        }
+        .front_page_contact--button{
+            text-align: center;
+            border: solid black;
+        }
+    }
+}
+
+

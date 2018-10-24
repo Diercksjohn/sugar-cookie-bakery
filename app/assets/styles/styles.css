@@ -1,13 +1,82 @@
 @import url(./../../../node_modules/normalize.css/normalize.css);
 @import url(./../../../node_modules/bulma/css/bulma.css);
-h1 {
+h1, h3 {
   font-family: "brownies";
   src: './../fonts/The Brownies.otf'; }
 
-nav .nav_closed {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0; }
+h1 {
+  font-size: 3.2rem;
+  word-spacing: 3rem; }
+
+p {
+  font-family: ff-tisa-web-pro, serif;
+  font-weight: 400;
+  font-style: normal; }
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+nav {
+  padding-top: 0.8rem;
+  padding-left: 0.8rem; }
+  nav .nav_closed {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0; }
+  nav .nav_list .nav_list-links {
+    display: none; }
+
+.site_name {
+  text-align: center; }
+
+.front_page_about_container .image_container {
+  border: solid black;
+  background-image: url(../../images/cookie_stack_opimized_desktop.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10; }
+  .front_page_about_container .image_container .image_container-overlay {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5; }
+.front_page_about_container .front_page_contact {
+  height: 24rem; }
+  .front_page_about_container .front_page_contact .front_page_contact--saying {
+    border: solid black;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem; }
+  .front_page_about_container .front_page_contact .front_page_contact--button {
+    text-align: center;
+    border: solid black; }
+
+footer {
+  border: solid black;
+  background-color: #F5C6C3; }
+  footer .footer_links {
+    text-align: center; }
+    footer .footer_links a {
+      color: #707070; }
+    footer .footer_links .footer_links--link {
+      padding-top: 2rem; }
+  footer .footer_image {
+    text-align: center; }
+  footer .footer_email {
+    text-align: center;
+    padding-bottom: 1rem; }
+    footer .footer_email a {
+      color: #707070; }
 
 /*# sourceMappingURL=styles.css.map */

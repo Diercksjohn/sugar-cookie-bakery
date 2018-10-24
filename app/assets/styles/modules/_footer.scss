@@ -1,0 +1,31 @@
+footer{
+    border:solid black;
+    background-color: #F5C6C3;
+
+    .footer_links{
+        text-align: center;
+
+        a{
+            color: $footer_link_color;
+        }
+        
+
+
+        .footer_links--link{
+            padding-top: 2rem;
+        }
+    }
+
+    .footer_image{
+        text-align: center;
+    }
+
+    .footer_email{
+        text-align: center;
+        padding-bottom: 1rem;
+
+        a{
+            color: $footer_link_color;
+        }
+    }
+}
