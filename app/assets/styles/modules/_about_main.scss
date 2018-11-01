@@ -1,0 +1,36 @@
+.about{
+
+    .about_title{
+        text-decoration: underline;
+        font-size: 2.5rem;
+    }
+
+    .about_owner-container{
+        border: solid black;
+        padding-left: 1rem;
+        .about_owner-image{
+            border: solid black;
+            border-radius: 50%;
+           
+        }
+
+    }
+    
+    .about_description{
+        border: solid black;
+    }
+
+    .about_section-saying{
+        border: solid black;
+        background-color: $saying_area-color;
+
+        .about_section-saying-quote{
+            color: $saying_words-color;
+        }
+
+        .about_section-saying-name{
+            color: $saying_words-color;
+        }
+    }
+}
+

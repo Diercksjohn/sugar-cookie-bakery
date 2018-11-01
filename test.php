@@ -9,10 +9,9 @@
 </head>
 
 <body>
-
     <div class="columns">
-
         <div class="column is-narrow">
+
             <nav>
                 <div class="nav_closed"></div>
                 <div class="nav_closed"></div>
@@ -27,55 +26,51 @@
                     </ul>
                 </div>
             </nav>
-        </div>
 
+        </div>
+        
         <div class="column">
             <h1 class="site_name">Sugar Cookie Bakery</h1>
         </div>
-    </div>
-    <div class="about">
-
-        <div class="columns">
-
-            <div class="about_owner-container column">
-                <img class="about_owner-image" src="./assets/images/pic_of_owner_optimized.png" alt="sugar-cookie-bakery-owner">
-            </div>
-
-             <div class="column">
-                <div class="about_main">
-
-                    <h1 class="about_title has-text-centered">
-                        Our Story
-                    </h1>
-                    <p class="about_description">
-                        I love I love chocolate cake chocolate cake. Gingerbread brownie I love candy 
-                        canes gummi bears jelly ice cream danish jujubes. Chupa chups topping carrot 
-                        cake cupcake chupa chups cheesecake wafer marshmallow jujubes. Candy I love 
-                        powder pudding. Apple pie liquorice candy canes ice cream I love. Cake I love
-                        caramels ice cream tart liquorice candy croissant. Chocolate jujubes I love 
-                        chocolate cake muffin fruitcake lemon drops. Gingerbread I love pie chocolate
-                        cake chocolate bar dragée I love I love. Dragée I love croissant biscuit candy.
-                        Lemon drops tootsie roll cupcake.
-                    </p>
-
-                </div>
-            </div>
-
-        </div>
-
-    
-
-        <div class="about_section-saying">
-            <h3 class="about_section-saying-quote has-text-centered">"Never promise to make pie and fail to deliver on that promise."</h3>
-            <h4 class="about_section-saying-name has-text-centered">-Kate Lebo</h4>
-        </div>
-
-        <div class="about_favorite_dishes">
-            <img src="./assets/images/" alt="pie">
-            <img src="./assets/images/" alt="pasta">
-        </div>
+        
     </div>
 
+    <div class="front_page_about_container">
+
+        <div class="front_page_about">
+            <h3 class="front_page_about--intro">
+                Chocolate gummies marshmallow fruitcake topping chocolate bar ice cream.
+                Muffin halvah lemon drops dragée brownie candy canes caramels.
+            </h3>
+            <p class="front_page_about--description">
+                Cookie topping tiramisu marzipan chupa chups candy soufflé. Tiramisu jelly-o pie 
+                powder sweet liquorice dragée halvah bonbon. Soufflé jelly 
+                beans liquorice donut carrot cake jujubes macaroon. Carrot cake jujubes donut bonbon
+                caramels. Candy brownie topping marshmallow. Sugar plum 
+                chocolate bar powder chupa chups chocolate cake brownie dessert gingerbread.
+                Tootsie roll caramels apple pie. Cookie topping tiramisu marzipan chupa 
+            </p>
+            <button class="button about-section">About</button>
+        </div>
+
+        <!-- image still needs overlay styles -->
+        <div class="image_container">
+            <img src="./assets/images/cookie_stack_opimized_desktop.jpg" alt="Stack of cookies">
+            <div class="image_container-overlay"></div>
+        </div>
+
+        <div class="front_page_contact">
+        
+            <h3 class="front_page_contact--saying">
+                Lets Make Something Delicious Together
+            </h3>
+            <div class="front_page_contact--button has-text-centered">
+                <button class="button">Contact</button>
+            </div>
+            
+        </div>
+
+    </div>
     <footer>
         <div class="columns footer_links">
             <div class="column"></div>

@@ -5,8 +5,8 @@ h1, h3 {
   src: './../fonts/The Brownies.otf'; }
 
 h1 {
-  font-size: 3.2rem;
-  word-spacing: 3rem; }
+  font-size: 2rem;
+  word-spacing: 1.5rem; }
 
 p {
   font-family: ff-tisa-web-pro, serif;
@@ -32,34 +32,69 @@ nav {
 .site_name {
   text-align: center; }
 
-.front_page_about_container .image_container {
+#container_heading {
   border: solid black;
-  background-image: url(../../images/cookie_stack_opimized_desktop.jpg);
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -10; }
-  .front_page_about_container .image_container .image_container-overlay {
-    position: absolute;
-    background-color: black;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -5; }
-.front_page_about_container .front_page_contact {
-  height: 18rem; }
-  .front_page_about_container .front_page_contact .front_page_contact--saying {
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 6rem;
-    margin-bottom: 4rem; }
-  .front_page_about_container .front_page_contact .front_page_contact--button {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  #container_heading nav {
+    border: solid black;
+    flex-grow: 1;
     text-align: center; }
+  #container_heading .site_name {
+    border: solid black;
+    flex-grow: 9; }
+
+#front_page_container_main {
+  border: solid black;
+  background-image: url("../images/cookie_stack_opimized_desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #front_page_container_main .front_page_about_container {
+    border: solid black;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5% 5% 5% 5%; }
+    #front_page_container_main .front_page_about_container .front_page_about_container--heading {
+      border: solid black;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: center;
+      color: #F8F8F8; }
+    #front_page_container_main .front_page_about_container .front_page_about_container--description {
+      border: solid black;
+      text-align: center;
+      margin: 0 0 10% 0;
+      color: #F8F8F8; }
+    #front_page_container_main .front_page_about_container .front_page_about_button_container {
+      border: solid black;
+      margin: 0 auto;
+      text-align: center; }
+      #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button {
+        border: solid black; }
+
+.about .about_title {
+  text-decoration: underline;
+  font-size: 2.5rem; }
+.about .about_owner-container {
+  border: solid black;
+  padding-left: 1rem; }
+  .about .about_owner-container .about_owner-image {
+    border: solid black;
+    border-radius: 50%; }
+.about .about_description {
+  border: solid black; }
+.about .about_section-saying {
+  border: solid black;
+  background-color: #FC6B6B; }
+  .about .about_section-saying .about_section-saying-quote {
+    color: white; }
+  .about .about_section-saying .about_section-saying-name {
+    color: white; }
 
 footer {
   border: solid black;
