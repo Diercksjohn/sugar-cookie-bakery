@@ -18,32 +18,30 @@ p {
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-nav {
-  padding-top: 0.8rem;
-  padding-left: 0.8rem; }
-  nav .nav_closed {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0; }
-  nav .nav_list .nav_list-links {
-    display: none; }
-
-.site_name {
-  text-align: center; }
-
 #container_heading {
   border: solid black;
   display: flex;
   flex-flow: row wrap;
   justify-content: center; }
   #container_heading nav {
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
     border: solid black;
     flex-grow: 1;
     text-align: center; }
+    #container_heading nav .nav_closed {
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      margin: 6px 0; }
+    #container_heading nav .nav_list .nav_list-links {
+      display: none; }
   #container_heading .site_name {
     border: solid black;
     flex-grow: 9; }
+
+.site_name {
+  text-align: center; }
 
 #front_page_container_main {
   border: solid black;
@@ -96,21 +94,65 @@ nav {
   .about .about_section-saying .about_section-saying-name {
     color: white; }
 
+#front_page_contact_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  #front_page_contact_container .front_page_contact_container--heading {
+    border: solid black;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: "brownies";
+    padding: 7% 10% 7% 10%;
+    margin-top: 30%;
+    flex-grow: 10; }
+    @media only screen and (min-width: 768px) {
+      #front_page_contact_container .front_page_contact_container--heading {
+        font-size: 3.5rem;
+        margin-top: 0;
+        width: 100%; } }
+  #front_page_contact_container .front_page_contact_button_container {
+    border: solid black;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10%;
+    flex-grow: 10;
+    margin-bottom: 30%; }
+    #front_page_contact_container .front_page_contact_button_container .front_page_contact_button_container--button {
+      border: solid black; }
+
 footer {
   border: solid black;
-  background-color: #F5C6C3; }
+  background-color: #F5C6C3;
+  display: flex;
+  flex-direction: column; }
   footer .footer_links {
-    text-align: center; }
+    border: solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+    @media only screen and (min-width: 768px) {
+      footer .footer_links {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; } }
     footer .footer_links a {
-      color: #707070; }
+      border: solid black;
+      color: #707070;
+      text-decoration: none; }
     footer .footer_links .footer_links--link {
+      border: solid black;
       padding-top: 2rem; }
   footer .footer_image {
+    border: solid black;
     text-align: center; }
   footer .footer_email {
+    border: solid black;
     text-align: center;
     padding-bottom: 1rem; }
     footer .footer_email a {
+      border: solid black;
       color: #707070; }
 
 /*# sourceMappingURL=styles.css.map */

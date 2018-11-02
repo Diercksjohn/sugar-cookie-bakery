@@ -1,17 +1,34 @@
-nav{
-    padding-top: $padding-menu;
-    padding-left: $padding-menu;
-    .nav_closed{
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;   
-    }
+#container_heading{
+    border: solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
-    .nav_list{
-        .nav_list-links{
-            //make navigation display for hamburger menu
-            display: none;
+    nav{
+        padding-top: $padding-menu;
+        padding-left: $padding-menu;
+        border: solid black;
+        flex-grow: 1;
+        text-align: center;
+        .nav_closed{
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin: 6px 0;   
+        }
+    
+        .nav_list{
+            .nav_list-links{
+                //make navigation display for hamburger menu
+                display: none;
+            }
         }
     }
+
+    .site_name{
+        border: solid black;
+        flex-grow: 9;
+    }
 }
+
+

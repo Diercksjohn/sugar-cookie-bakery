@@ -31,26 +31,49 @@
 
     <div id="front_page_container_main">
 
-            <div class="front_page_about_container">
-                <h3 class="front_page_about_container--heading">Chocolate gummies marshmallow fruitcake topping chocolate bar ice 
-                    cream.
-                    Muffin halvah lemon drops dragée brownie candy canes caramels.
-                </h3>
-                <p class="front_page_about_container--description">Cookie topping tiramisu marzipan chupa chups candy soufflé. Tiramisu jelly-o pie powder sweet 
-                    liquorice dragée halvah bonbon. Soufflé jelly 
-                    beans liquorice donut carrot cake jujubes macaroon. Carrot cake jujubes donut bonbon caramels. Candy 
-                    brownie topping marshmallow. Sugar plum 
-                    chocolate bar powder chupa chups chocolate cake brownie dessert gingerbread. Tootsie roll caramels 
-                    apple pie. Cookie topping tiramisu marzipan chupa 
-                </p>
+        <div class="front_page_about_container">
+            <h3 class="front_page_about_container--heading">Chocolate gummies marshmallow fruitcake topping chocolate bar ice 
+                cream.
+                Muffin halvah lemon drops dragée brownie candy canes caramels.
+            </h3>
+            <p class="front_page_about_container--description">Cookie topping tiramisu marzipan chupa chups candy soufflé. Tiramisu jelly-o pie powder sweet 
+                liquorice dragée halvah bonbon. Soufflé jelly 
+                beans liquorice donut carrot cake jujubes macaroon. Carrot cake jujubes donut bonbon caramels. Candy 
+                brownie topping marshmallow. Sugar plum 
+                chocolate bar powder chupa chups chocolate cake brownie dessert gingerbread. Tootsie roll caramels 
+                apple pie. Cookie topping tiramisu marzipan chupa 
+            </p>
 
-                <div class="front_page_about_button_container">
-                    <button type="button" class="front_page_about_button_container--button">About Us</button>
-                </div>
+            <div class="front_page_about_button_container">
+                <button type="button" class="front_page_about_button_container--button">About Us</button>
             </div>
-        
+        </div>
+
+    </div>
+
+    <div id="front_page_contact_container">
+
+        <h2 class="front_page_contact_container--heading">Lets make something delicious together</h2>
+        <div class="front_page_contact_button_container">
+            <button type="button" class="front_page_contact_button_container--button">About Us</button>
+        </div>
         
     </div>
+
+    <footer>
+        <div class="footer_links">
+            <div class="footer_links--link"><a href="./index.php">Home</a></div>
+            <div class="footer_links--link"><a href="./about.php">About</a></div>
+            <div class="footer_links--link"><a href="./recipes.php">Recipes</a></div>
+            <div class="footer_links--link"><a href="./contact.php">Contact</a></div>
+        </div>
+        <div class="footer_image">
+            <a href="./index.php"><img src="./assets/images/bakery_logo_optimized.png" alt="brand logo"></a>
+        </div>
+        <div class="footer_email">
+            <a href="mailto:jdpivotjohn@gmail.com">Send Me A Email</a>
+        </div>
+    </footer>
     
 </body>
 
