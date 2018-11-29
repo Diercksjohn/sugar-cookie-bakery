@@ -63,17 +63,42 @@ p {
       font-weight: bold;
       text-align: center;
       color: #F8F8F8; }
+      @media only screen and (min-width: 768px) {
+        #front_page_container_main .front_page_about_container .front_page_about_container--heading {
+          font-size: 2.3rem;
+          padding: 0 10% 0 10%; } }
     #front_page_container_main .front_page_about_container .front_page_about_container--description {
       border: solid black;
       text-align: center;
-      margin: 0 0 10% 0;
+      margin: 0 0 7% 0;
+      font-size: 1rem;
+      line-height: 1.6;
       color: #F8F8F8; }
+      @media only screen and (min-width: 600px) {
+        #front_page_container_main .front_page_about_container .front_page_about_container--description {
+          line-height: 2.4; } }
+      @media only screen and (min-width: 768px) {
+        #front_page_container_main .front_page_about_container .front_page_about_container--description {
+          padding: 0 10% 0 10%; } }
     #front_page_container_main .front_page_about_container .front_page_about_button_container {
       border: solid black;
       margin: 0 auto;
       text-align: center; }
       #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button {
-        border: solid black; }
+        width: 6rem;
+        height: 3rem;
+        color: white;
+        background: transparent;
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: solid white;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none; }
+        @media only screen and (min-width: 600px) {
+          #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button {
+            width: 8rem;
+            height: 3rem; } }
 
 .about .about_title {
   text-decoration: underline;
@@ -105,20 +130,31 @@ p {
     text-align: center;
     font-family: "brownies";
     padding: 7% 10% 7% 10%;
-    margin-top: 30%;
+    margin-top: 20%;
+    width: 100%;
     flex-grow: 10; }
+    @media only screen and (min-width: 600px) {
+      #front_page_contact_container .front_page_contact_container--heading {
+        font-size: 2.8rem;
+        margin-top: 15%; } }
     @media only screen and (min-width: 768px) {
       #front_page_contact_container .front_page_contact_container--heading {
         font-size: 3.5rem;
-        margin-top: 0;
-        width: 100%; } }
+        margin-top: 5%; } }
   #front_page_contact_container .front_page_contact_button_container {
     border: solid black;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 10%;
     flex-grow: 10;
-    margin-bottom: 30%; }
+    margin-bottom: 20%;
+    width: 100%; }
+    @media only screen and (min-width: 600px) {
+      #front_page_contact_container .front_page_contact_button_container {
+        margin-bottom: 15%; } }
+    @media only screen and (min-width: 768px) {
+      #front_page_contact_container .front_page_contact_button_container {
+        margin-bottom: 5%; } }
     #front_page_contact_container .front_page_contact_button_container .front_page_contact_button_container--button {
       border: solid black; }
 
@@ -131,28 +167,39 @@ footer {
     border: solid black;
     text-align: center;
     display: flex;
-    flex-direction: column; }
-    @media only screen and (min-width: 768px) {
+    flex-direction: column;
+    padding-top: 2rem; }
+    @media only screen and (min-width: 600px) {
       footer .footer_links {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center; } }
+    @media only screen and (min-width: 836px) {
+      footer .footer_links {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1rem; } }
     footer .footer_links a {
       border: solid black;
       color: #707070;
-      text-decoration: none; }
-    footer .footer_links .footer_links--link {
+      text-decoration: none;
+      margin-bottom: 3rem; }
+    footer .footer_links .footer_links > .footer_links--link {
       border: solid black;
-      padding-top: 2rem; }
+      cursor: pointer; }
   footer .footer_image {
     border: solid black;
     text-align: center; }
   footer .footer_email {
     border: solid black;
     text-align: center;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    cursor: pointer;
+    margin-top: 1rem; }
     footer .footer_email a {
       border: solid black;
-      color: #707070; }
+      color: #707070;
+      text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */

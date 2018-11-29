@@ -1,0 +1,81 @@
+#front_page_container_main{
+
+    border: solid black;
+    background-image: url("../images/cookie_stack_opimized_desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .front_page_about_container{
+
+        border: solid black;
+        display: flex;
+        flex-flow: column wrap;
+        margin: 5% 5% 5% 5%;
+
+        .front_page_about_container--heading{
+
+            border: solid black; 
+            font-size: 1.8rem; 
+            font-weight: bold;
+            text-align: center;
+            color: $front_page_about;
+
+            @include medium(768px){
+                font-size: 2.3rem; 
+                padding: 0 10% 0 10%;
+            }
+
+        }
+        .front_page_about_container--description{
+
+            border: solid black;
+            text-align: center;
+            margin: 0 0 7% 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: $front_page_about;
+
+            @include small(600px){
+                line-height: 2.4;
+            }
+
+            @include medium(768px){
+                padding: 0 10% 0 10%;
+            }
+            
+        }
+
+        .front_page_about_button_container{
+
+            border: solid black;
+            margin: 0 auto;
+            text-align: center;
+
+            .front_page_about_button_container--button{
+                width: 6rem;
+                height: 3rem;
+                color: white;
+                background: transparent;
+                background-color: Transparent;
+                background-repeat:no-repeat;
+                border: solid white;
+                cursor:pointer;
+                overflow: hidden;
+                outline:none;
+
+                @include small(600px){
+                    width: 8rem;
+                    height: 3rem;
+                }
+                
+            }
+    
+        }
+
+    }
+
+}

@@ -77,16 +77,14 @@
     </div>
 
     <footer>
-        <div class="columns footer_links">
-            <div class="column"></div>
-            <div class="column footer_links--link"><a href="./index.php">Home</a></div>
-            <div class="column footer_links--link"><a href="./about.php">About</a></div>
-            <div class="column footer_links--link"><a href="./recipes.php">Recipes</a></div>
-            <div class="column footer_links--link"><a href="./contact.php">Contact</a></div>
-            <div class="column"></div>
+        <div class="footer_links">
+            <div class="footer_links--link"><a href="./index.php">Home</a></div>
+            <div class="footer_links--link"><a href="./about.php">About</a></div>
+            <div class="footer_links--link"><a href="./recipes.php">Recipes</a></div>
+            <div class="footer_links--link"><a href="./contact.php">Contact</a></div>
         </div>
-        <div class="columns footer_image">
-            <div class="column"><a href="./index.php"><img src="./assets/images/bakery_logo_optimized.png" alt="brand logo"></a></div>
+        <div class="footer_image">
+            <a href="./index.php"><img src="./assets/images/bakery_logo_optimized.png" alt="brand logo"></a>
         </div>
         <div class="footer_email">
             <a href="mailto:jdpivotjohn@gmail.com">Send Me A Email</a>
