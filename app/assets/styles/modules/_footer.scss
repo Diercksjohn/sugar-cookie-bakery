@@ -33,7 +33,7 @@ footer{
             border:solid black;
             color: $footer_link_color;
             text-decoration: $links_underline_none;
-            margin-bottom: 3rem;
+            margin-top: 3rem;
         }
         
 
@@ -41,6 +41,7 @@ footer{
         .footer_links > .footer_links--link{
             border:solid black;
             cursor: pointer;
+            
         }
     }
 

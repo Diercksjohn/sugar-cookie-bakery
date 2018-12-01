@@ -27,13 +27,13 @@ p {
     padding-top: 0.8rem;
     padding-left: 0.8rem;
     border: solid black;
-    flex-grow: 1;
+    flex-grow: 0.5;
     text-align: center; }
     #container_heading nav .nav_closed {
-      width: 35px;
-      height: 5px;
+      width: 2rem;
+      height: .25rem;
       background-color: black;
-      margin: 6px 0; }
+      margin: 8px 0; }
     #container_heading nav .nav_list .nav_list-links {
       display: none; }
   #container_heading .site_name {
@@ -184,7 +184,7 @@ footer {
       border: solid black;
       color: #707070;
       text-decoration: none;
-      margin-bottom: 3rem; }
+      margin-top: 3rem; }
     footer .footer_links .footer_links > .footer_links--link {
       border: solid black;
       cursor: pointer; }
