@@ -85,7 +85,7 @@ p {
       margin: 0 auto;
       text-align: center; }
       #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button {
-        width: 6rem;
+        width: 8rem;
         height: 3rem;
         color: white;
         background: transparent;
@@ -95,10 +95,20 @@ p {
         cursor: pointer;
         overflow: hidden;
         outline: none; }
-        @media only screen and (min-width: 600px) {
-          #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button {
-            width: 8rem;
-            height: 3rem; } }
+
+#front_page_contact_container .front_page_contact_container--heading {
+  color: #707070; }
+#front_page_contact_container .front_page_contact_button_container .front_page_contact_button_container--button {
+  width: 8rem;
+  height: 3rem;
+  color: black;
+  background: transparent;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: solid black;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none; }
 
 .about .about_title {
   text-decoration: underline;
@@ -168,13 +178,14 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    margin-bottom: 1rem; }
     @media only screen and (min-width: 600px) {
       footer .footer_links {
         flex-direction: column;
         justify-content: center;
         align-items: center; } }
-    @media only screen and (min-width: 836px) {
+    @media only screen and (min-width: 800px) {
       footer .footer_links {
         flex-direction: row;
         justify-content: space-around;
@@ -183,8 +194,12 @@ footer {
     footer .footer_links a {
       border: solid black;
       color: #707070;
-      text-decoration: none;
+      text-decoration: none; }
+    footer .footer_links .footer_links--link + .footer_links--link {
       margin-top: 3rem; }
+      @media only screen and (min-width: 800px) {
+        footer .footer_links .footer_links--link + .footer_links--link {
+          margin-top: 0; } }
     footer .footer_links .footer_links > .footer_links--link {
       border: solid black;
       cursor: pointer; }

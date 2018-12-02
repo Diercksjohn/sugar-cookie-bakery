@@ -55,14 +55,14 @@
 
         <h2 class="front_page_contact_container--heading">Lets make something delicious together</h2>
         <div class="front_page_contact_button_container">
-            <button type="button" class="front_page_contact_button_container--button">About Us</button>
+            <button type="button" class="front_page_contact_button_container--button">Contact</button>
         </div>
         
     </div>
 
     <footer>
         <div class="footer_links">
-            <div class="footer_links--link"><a href="./index.php">Home</a></div>
+            <div class="footer_links--link footer_links--link_home"><a href="./index.php">Home</a></div>
             <div class="footer_links--link"><a href="./about.php">About</a></div>
             <div class="footer_links--link"><a href="./recipes.php">Recipes</a></div>
             <div class="footer_links--link"><a href="./contact.php">Contact</a></div>

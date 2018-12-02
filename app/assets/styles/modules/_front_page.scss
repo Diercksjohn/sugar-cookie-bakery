@@ -56,7 +56,7 @@
             text-align: center;
 
             .front_page_about_button_container--button{
-                width: 6rem;
+                width: 8rem;
                 height: 3rem;
                 color: white;
                 background: transparent;
@@ -68,8 +68,7 @@
                 outline:none;
 
                 @include small(600px){
-                    width: 8rem;
-                    height: 3rem;
+                    
                 }
                 
             }
@@ -78,4 +77,32 @@
 
     }
 
+}
+
+#front_page_contact_container{
+
+    .front_page_contact_container--heading{
+        color: $basic_color;
+    }
+
+    .front_page_contact_button_container{
+
+        .front_page_contact_button_container--button{
+            width: 8rem;
+            height: 3rem;
+            color: black;
+            background: transparent;
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: solid black;
+            cursor: pointer;
+            overflow: hidden;
+            outline:none;
+
+            @include small(600px){
+                
+            }
+        }
+
+    }
 }
