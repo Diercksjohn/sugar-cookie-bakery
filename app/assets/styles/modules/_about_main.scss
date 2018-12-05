@@ -2,26 +2,38 @@
 
     .about_title{
         text-decoration: underline;
-        font-size: 2.5rem;
+        font-size: 3rem;
+        text-align: center;
     }
 
     .about_owner-container{
+        margin-top: 1rem;
         border: solid black;
-        padding-left: 1rem;
+        display: flex;
+        justify-content: center;
+
         .about_owner-image{
             border: solid black;
             border-radius: 50%;
-           
+            height: 250px;
+            width: 300px;
         }
 
     }
     
     .about_description{
         border: solid black;
+        text-align: center;
+        line-height: 1.8;
+        padding-right: .5rem;
+        padding-left: .5rem;
     }
 
     .about_section-saying{
         border: solid black;
+        font-size: 1.5rem;
+        padding-right: .5rem;
+        padding-left: .5rem;
         background-color: $saying_area-color;
 
         .about_section-saying-quote{
@@ -30,6 +42,8 @@
 
         .about_section-saying-name{
             color: $saying_words-color;
+            font-size: 1rem;
+            text-align: center;
         }
     }
 }

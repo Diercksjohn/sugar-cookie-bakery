@@ -45,7 +45,7 @@
             </p>
 
             <div class="front_page_about_button_container">
-                <button type="button" class="front_page_about_button_container--button">About Us</button>
+                <button type="button" class="front_page_about_button_container--button"><a href="index.php">About Us</a></button>
             </div>
         </div>
 
@@ -55,7 +55,7 @@
 
         <h2 class="front_page_contact_container--heading">Lets make something delicious together</h2>
         <div class="front_page_contact_button_container">
-            <button type="button" class="front_page_contact_button_container--button">Contact</button>
+            <button type="button" class="front_page_contact_button_container--button"><a href="contact.php">Contact</a></button>
         </div>
         
     </div>
