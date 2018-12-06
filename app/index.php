@@ -45,7 +45,7 @@
             </p>
 
             <div class="front_page_about_button_container">
-                <button type="button" class="front_page_about_button_container--button"><a href="index.php">About Us</a></button>
+                <button type="button" class="front_page_about_button_container--button"><a href="./about.php">About Us</a></button>
             </div>
         </div>
 
@@ -55,14 +55,14 @@
 
         <h2 class="front_page_contact_container--heading">Lets make something delicious together</h2>
         <div class="front_page_contact_button_container">
-            <button type="button" class="front_page_contact_button_container--button"><a href="contact.php">Contact</a></button>
+            <button type="button" class="front_page_contact_button_container--button"><a href="./contact.php">Contact</a></button>
         </div>
         
     </div>
 
     <footer>
         <div class="footer_links">
-            <div class="footer_links--link footer_links--link_home"><a href="./index.php">Home</a></div>
+            <div class="footer_links--link"><a href="./index.php">Home</a></div>
             <div class="footer_links--link"><a href="./about.php">About</a></div>
             <div class="footer_links--link"><a href="./recipes.php">Recipes</a></div>
             <div class="footer_links--link"><a href="./contact.php">Contact</a></div>
@@ -74,7 +74,7 @@
             <a href="mailto:jdpivotjohn@gmail.com">Send Me A Email</a>
         </div>
     </footer>
-    
+    <script src="./scripts/App.js"></script>
 </body>
 
 </html>

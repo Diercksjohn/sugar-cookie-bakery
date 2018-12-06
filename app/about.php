@@ -30,6 +30,8 @@
     </div>
 
     <div class="about">
+            
+        <div class="about_section_container">
 
             <div class="about_owner-container">
                 <img class="about_owner-image" src="./assets/images/pic_of_owner_optimized.png" alt="sugar-cookie-bakery-owner">
@@ -53,6 +55,8 @@
 
             </div>
 
+        </div>
+            
         <div class="about_section-saying">
             <h3 class="about_section-saying-quote has-text-centered">"Never promise to make pie and fail to deliver on that promise."</h3>
             <h4 class="about_section-saying-name has-text-centered">-Kate Lebo</h4>

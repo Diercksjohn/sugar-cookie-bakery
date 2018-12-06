@@ -4,6 +4,9 @@ h1, h3 {
   font-family: "brownies";
   src: './../fonts/The Brownies.otf'; }
 
+a {
+  text-decoration: none; }
+
 h1 {
   font-size: 2rem;
   word-spacing: 1.5rem; }
@@ -87,7 +90,6 @@ p {
       #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button {
         width: 8rem;
         height: 3rem;
-        color: white;
         background: transparent;
         background-color: Transparent;
         background-repeat: no-repeat;
@@ -95,13 +97,14 @@ p {
         cursor: pointer;
         overflow: hidden;
         outline: none; }
+        #front_page_container_main .front_page_about_container .front_page_about_button_container .front_page_about_button_container--button a {
+          color: white; }
 
 #front_page_contact_container .front_page_contact_container--heading {
   color: #707070; }
 #front_page_contact_container .front_page_contact_button_container .front_page_contact_button_container--button {
   width: 8rem;
   height: 3rem;
-  color: black;
   background: transparent;
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -110,33 +113,88 @@ p {
   overflow: hidden;
   outline: none;
   text-decoration: none; }
+  #front_page_contact_container .front_page_contact_button_container .front_page_contact_button_container--button a {
+    color: black; }
 
-.about .about_title {
-  text-decoration: underline;
-  font-size: 3rem;
-  text-align: center; }
-.about .about_owner-container {
-  margin-top: 1rem;
-  border: solid black;
-  display: flex;
-  justify-content: center; }
-  .about .about_owner-container .about_owner-image {
+.about .about_section_container {
+  border: black solid; }
+  @media only screen and (min-width: 900px) {
+    .about .about_section_container {
+      display: flex;
+      flex: wrap;
+      flex-direction: row-reverse;
+      margin-top: 2rem;
+      margin-bottom: 2rem; } }
+  @media only screen and (min-width: 900px) {
+    .about .about_section_container {
+      margin-top: 3.6rem;
+      margin-bottom: 3.6rem; } }
+  .about .about_section_container .about_title {
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center; }
+  .about .about_section_container .about_owner-container {
+    margin-top: 1rem;
     border: solid black;
-    border-radius: 50%;
-    height: 250px;
-    width: 300px; }
-.about .about_description {
-  border: solid black;
-  text-align: center;
-  line-height: 1.8;
-  padding-right: .5rem;
-  padding-left: .5rem; }
+    display: flex;
+    justify-content: center; }
+    @media only screen and (min-width: 900px) {
+      .about .about_section_container .about_owner-container {
+        padding-top: 3rem;
+        padding-right: 1rem;
+        margin-top: 4rem; } }
+    @media only screen and (min-width: 1200px) {
+      .about .about_section_container .about_owner-container {
+        padding-right: 6rem; } }
+    .about .about_section_container .about_owner-container .about_owner-image {
+      border: solid black;
+      border-radius: 50%;
+      height: 250px;
+      width: 300px; }
+      @media only screen and (min-width: 950px) {
+        .about .about_section_container .about_owner-container .about_owner-image {
+          height: 275px;
+          width: 325px; } }
+      @media only screen and (min-width: 1000px) {
+        .about .about_section_container .about_owner-container .about_owner-image {
+          height: 300px;
+          width: 350px; } }
+  .about .about_section_container .about_description {
+    border: solid black;
+    text-align: center;
+    line-height: 1.8;
+    padding-right: .5rem;
+    padding-left: .5rem; }
+    @media only screen and (min-width: 900px) {
+      .about .about_section_container .about_description {
+        padding-right: 4rem;
+        padding-left: 4rem;
+        line-height: 2; } }
+    @media only screen and (min-width: 900px) {
+      .about .about_section_container .about_description {
+        padding-right: 6rem;
+        padding-left: 6rem;
+        line-height: 2.1; } }
+    @media only screen and (min-width: 1200px) {
+      .about .about_section_container .about_description {
+        padding-right: 8rem;
+        padding-left: 8rem;
+        line-height: 2.2; } }
 .about .about_section-saying {
   border: solid black;
   font-size: 1.5rem;
   padding-right: .5rem;
   padding-left: .5rem;
   background-color: #FC6B6B; }
+  @media only screen and (min-width: 600px) {
+    .about .about_section-saying {
+      text-align: center;
+      font-size: 1.7rem; } }
+  @media only screen and (min-width: 800px) {
+    .about .about_section-saying {
+      font-size: 1.9rem;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem; } }
   .about .about_section-saying .about_section-saying-quote {
     color: white; }
   .about .about_section-saying .about_section-saying-name {

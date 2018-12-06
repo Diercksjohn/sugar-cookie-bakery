@@ -56,9 +56,8 @@
             text-align: center;
 
             .front_page_about_button_container--button{
-                width: 8rem;
-                height: 3rem;
-                color: white;
+                width: $font_page_button--width;
+                height: $font_page_button--height;
                 background: transparent;
                 background-color: Transparent;
                 background-repeat:no-repeat;
@@ -66,6 +65,10 @@
                 cursor:pointer;
                 overflow: hidden;
                 outline:none;
+
+                a{
+                    color: white;
+                }
 
                 @include small(600px){
                     
@@ -88,9 +91,8 @@
     .front_page_contact_button_container{
 
         .front_page_contact_button_container--button{
-            width: 8rem;
+            width: $font_page_button--width;
             height: 3rem;
-            color: black;
             background: transparent;
             background-color: Transparent;
             background-repeat:no-repeat;
@@ -99,6 +101,10 @@
             overflow: hidden;
             outline:none;
             text-decoration: none;
+
+            a{
+                color: black;
+            }
 
             @include small(600px){
                 

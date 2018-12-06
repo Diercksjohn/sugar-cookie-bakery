@@ -1,33 +1,88 @@
 .about{
 
-    .about_title{
-        text-decoration: underline;
-        font-size: 3rem;
-        text-align: center;
-    }
+    .about_section_container{
+        border:black solid;
 
-    .about_owner-container{
-        margin-top: 1rem;
-        border: solid black;
-        display: flex;
-        justify-content: center;
-
-        .about_owner-image{
-            border: solid black;
-            border-radius: 50%;
-            height: 250px;
-            width: 300px;
+        @include medium(900px){
+            display: flex;
+            flex: wrap;        
+            flex-direction: row-reverse; 
+            margin-top: 2rem;
+            margin-bottom: 2rem;   
         }
 
+        @include medium(900px){ 
+            margin-top: 3.6rem;
+            margin-bottom: 3.6rem;   
+        }
+        
+        .about_title{
+            text-decoration: underline;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .about_owner-container{
+            margin-top: 1rem;
+            border: solid black;
+            display: flex;
+            justify-content: center;
+
+            @include medium(900px){
+                padding-top: 3rem; 
+                padding-right: 1rem;
+                margin-top: 4rem;
+            }
+
+            @include extraLarge(1200px){
+                padding-right: 6rem;
+            }
+            .about_owner-image{
+                border: solid black;
+                border-radius: 50%;
+                height: 250px;
+                width: 300px;
+
+                @include medium(950px){
+                    height: 275px;
+                    width: 325px;
+                }
+
+                @include large(1000px){
+                    height: 300px;
+                    width: 350px;
+                }
+            }
+
+        }
+
+        .about_description{
+            border: solid black;
+            text-align: center;
+            line-height: 1.8;
+            padding-right: .5rem;
+            padding-left: .5rem;
+
+            @include medium(900px){
+                padding-right: 4rem;
+                padding-left: 4rem; 
+                line-height: 2;
+            }
+
+            @include medium(900px){
+                padding-right: 6rem;
+                padding-left: 6rem; 
+                line-height: 2.1;
+            }
+
+            @include extraLarge(1200px){
+                padding-right: 8rem;
+                padding-left: 8rem;
+                line-height: 2.2; 
+            }
+        }
     }
     
-    .about_description{
-        border: solid black;
-        text-align: center;
-        line-height: 1.8;
-        padding-right: .5rem;
-        padding-left: .5rem;
-    }
 
     .about_section-saying{
         border: solid black;
@@ -35,6 +90,17 @@
         padding-right: .5rem;
         padding-left: .5rem;
         background-color: $saying_area-color;
+
+        @include small(600px){
+            text-align: center;
+            font-size: 1.7rem;            
+        }
+
+        @include medium(800px){
+            font-size: 1.9rem;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;            
+        }
 
         .about_section-saying-quote{
             color: $saying_words-color;
