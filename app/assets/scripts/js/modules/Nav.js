@@ -5,10 +5,12 @@ import $ from 'jquery';
     class Nav {
 
         constructor() {
+            alert("alert in constructor is working");
             this.events();
         }
 
         events(){
+            alert("alert in events is working");
             $('.hamburger').on('click', function () {
                 $('.menu').addClass('open');
             });

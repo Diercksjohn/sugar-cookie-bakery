@@ -8,8 +8,7 @@ a {
   text-decoration: none; }
 
 h1 {
-  font-size: 2rem;
-  word-spacing: 1.5rem; }
+  font-size: 2rem; }
 
 p {
   font-family: ff-tisa-web-pro, serif;
@@ -27,16 +26,21 @@ p {
   flex-flow: row wrap;
   justify-content: center; }
   #container_heading nav {
+    margin-top: 1.2rem;
     padding-top: 0.8rem;
     padding-left: 0.8rem;
     border: solid black;
     flex-grow: 0.5;
     text-align: center; }
+    @media only screen and (min-width: 900px) {
+      #container_heading nav {
+        margin-top: 1.4rem;
+        margin-left: 0.9rem; } }
     #container_heading nav .nav_closed {
       width: 2rem;
       height: .25rem;
       background-color: black;
-      margin: 8px 0; }
+      margin: .5rem 0; }
     #container_heading nav .nav_list .nav_list-links {
       display: none; }
   #container_heading .site_name {
@@ -44,7 +48,12 @@ p {
     flex-grow: 9; }
 
 .site_name {
-  text-align: center; }
+  text-align: center;
+  word-spacing: 1.5rem;
+  font-size: 2.5rem; }
+  @media only screen and (min-width: 900px) {
+    .site_name {
+      font-size: 3rem; } }
 
 #front_page_container_main {
   border: solid black;
@@ -123,16 +132,16 @@ p {
       display: flex;
       flex: wrap;
       flex-direction: row-reverse;
-      margin-top: 2rem;
-      margin-bottom: 2rem; } }
-  @media only screen and (min-width: 900px) {
-    .about .about_section_container {
-      margin-top: 3.6rem;
+      margin-top: 2.5rem;
       margin-bottom: 3.6rem; } }
   .about .about_section_container .about_title {
     text-decoration: underline;
-    font-size: 3rem;
-    text-align: center; }
+    font-size: 2.2rem;
+    text-align: center;
+    word-spacing: .5rem; }
+    @media only screen and (min-width: 900px) {
+      .about .about_section_container .about_title {
+        font-size: 2.5rem; } }
   .about .about_section_container .about_owner-container {
     margin-top: 1rem;
     border: solid black;
@@ -140,9 +149,9 @@ p {
     justify-content: center; }
     @media only screen and (min-width: 900px) {
       .about .about_section_container .about_owner-container {
-        padding-top: 3rem;
+        padding-top: 2rem;
         padding-right: 1rem;
-        margin-top: 4rem; } }
+        margin-top: 1.5rem; } }
     @media only screen and (min-width: 1200px) {
       .about .about_section_container .about_owner-container {
         padding-right: 6rem; } }

@@ -5,16 +5,22 @@
     justify-content: center;
 
     nav{
+        margin-top: 1.2rem;
         padding-top: $padding-menu;
         padding-left: $padding-menu;
         border: solid black;
         flex-grow: 0.5;
         text-align: center;
+
+        @include medium(900px){
+            margin-top: 1.4rem;
+            margin-left: 0.9rem;
+        }
         .nav_closed{
             width: 2rem;
             height: .25rem;
             background-color: black;
-            margin: 8px 0;   
+            margin: .5rem 0;   
         }
     
         .nav_list{

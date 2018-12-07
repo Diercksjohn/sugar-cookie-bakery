@@ -7,19 +7,19 @@
             display: flex;
             flex: wrap;        
             flex-direction: row-reverse; 
-            margin-top: 2rem;
-            margin-bottom: 2rem;   
-        }
-
-        @include medium(900px){ 
-            margin-top: 3.6rem;
-            margin-bottom: 3.6rem;   
+            margin-top: 2.5rem;
+            margin-bottom: 3.6rem;  
         }
         
         .about_title{
             text-decoration: underline;
-            font-size: 3rem;
+            font-size: 2.2rem;
             text-align: center;
+            word-spacing: .5rem;
+
+            @include medium(900px){
+                font-size: 2.5rem;
+            }
         }
 
         .about_owner-container{
@@ -29,9 +29,9 @@
             justify-content: center;
 
             @include medium(900px){
-                padding-top: 3rem; 
+                padding-top: 2rem; 
                 padding-right: 1rem;
-                margin-top: 4rem;
+                margin-top: 1.5rem;
             }
 
             @include extraLarge(1200px){

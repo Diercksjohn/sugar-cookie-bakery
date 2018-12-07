@@ -6,6 +6,7 @@
 <title>Sugar Cookie Bakery</title>
 <link rel="stylesheet" href="https://use.typekit.net/hdq6arg.css">
 <link rel="stylesheet" href="assets/styles/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -74,7 +75,7 @@
             <a href="mailto:jdpivotjohn@gmail.com">Send Me A Email</a>
         </div>
     </footer>
-    <script src="./scripts/App.js"></script>
+    <script type="text/javascript"  src="/scripts/js/App.js"></script>
 </body>
 
 </html>
